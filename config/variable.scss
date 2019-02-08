@@ -1,0 +1,38 @@
+$brand-font: 'Alegreya Sans SC', sans-serif;
+$open-font: 'Open Sans', sans-serif;
+// border on filling backgrounds
+$light-border: solid .5px #e2e2e2;
+// brand color
+$brand-color: #278DAA;
+// all the filling backgrounds
+$fill-color: #F2F2F2;
+// hover from dark
+$between-fill-color: #ACACAC;
+// tags
+$darker-fill-color: #62665E;
+
+//fonts 14, 16, 18
+//large
+$big: 1.75em;
+    //title
+$m-title: 1.5em;
+    //header  tagcar(header)
+$m-title-small: 1.05em;
+    //content more tagcarhead
+$m-small: .95em;
+    //tagcarcontent author(articles)
+$m-smaller: .85em;
+    //time author(home) tags
+$m-smallest: .75em;
+
+//media margins
+$media-large: 18%;
+$media-medium: 14%;
+$media-small: 9%;
+$media-smallest: 3.5%;
+// $media-smallest: 1fr;
+
+$head-1: 58px;
+$head-2: 60px;
+$head-3: 62px;
+$head-4: 65px;

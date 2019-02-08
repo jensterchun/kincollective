@@ -1,0 +1,343 @@
+{
+    "tagsCarContent" : [
+        {
+            "tagLabel" : "Posture",
+            "tagLink" : "posture",
+            "tagDetail" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore hic accusamus quia ipsum itaque?"
+        },
+        {
+            "tagLabel" : "Low Back Pain",
+            "tagLink" : "low-back-pain",
+            "tagDetail" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat in, animi iste numquam placeat laudantium."
+        },
+        {
+            "tagLabel" : "Running",
+            "tagLink" : "running",
+            "tagDetail" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa porro similique iusto iure maxime libero enim autem! Mollitia."
+        },
+        {
+            "tagLabel" : "About us",
+            "tagLink" : "about-us",
+            "tagDetail" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde sed soluta officia eos."
+        },
+        {
+            "tagLabel" : "Chain Model",
+            "tagLink" : "chain-model",
+            "tagDetail" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ab hic rem voluptas labore!"
+        },
+        {
+            "tagLabel" : "Something",
+            "tagLink" : "something",
+            "tagDetail" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis qui amet laborum est, optio quo perspiciatis."
+        }
+    ],
+    "links" : [
+        {
+            "link" : "",
+            "linkLabel" : "Home"
+        },
+        {
+            "link" : "articles",
+            "linkLabel" : "Articles"
+        },
+        {
+            "link" : "about",
+            "linkLabel" : "About"
+        },
+        {
+            "link" : "subscribe",
+            "linkLabel" : "Subscribe"
+        },
+        {
+            "link" : "test",
+            "linkLabel" : "Test"
+        }
+    ],
+    "articleContent" : [
+        {
+            "title" : "Our Goal",
+            "date" : "October 1, 2018",
+            "shortDate" : "Oct 1, 2018",
+            "articleLink" : "our-goal",
+            "imageSmall" : "./img/joey-kyber-132520-unsplash.jpg",
+            "image": "./img/joey-kyber-132520-unsplashsmall.jpg",
+            "imageSquare" : "./img/joey-kyber-132520-unsplash2.jpg",
+            "imagePort" : "./img/joey-kyber-132520-unsplashport.jpg",
+            "alt" : "Sunrise landscape of a long and winding road",
+            "content" : [
+                "Hello there! We are a group of well-being enthusiasts who got degrees to learn more about the complexities of the human body. After years of client care we saw trends of preventable dysfunctions. We put our minds to work and realized the web was the best way to reach out to you. Our goal is to educate the public, so you can spend less time in a confining clinic and more time in a healthy body!",
+                "We believe research will never end and there are questions we cannot answer, but as experts in the field we have the responsibility to share our current leads and give you the basic facts. We will be thrilled to help you learn more about how to better care for your body.",
+                "Much love,",
+                "the KC team"
+            ],
+            "contentDetail" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minus vitae aut rem explicabo doloribus.",
+            "author" : "Kinesiology Collective",
+            "authorLink" : "kinesiology-collective",
+            "tags" : ["about", "welcome"]
+        },
+        {
+            "title" : "Amet Consectetur Adipisicing",
+            "date" : "October 5, 2018",
+            "shortDate" : "Oct 5, 2018",
+            "articleLink" : "amet-consectetur-adipisicing-elit",
+            "imageSmall" : "./img/jeff-kepler-1062074-unsplash (1)-min.jpg",
+            "image": "./img/jeff-kepler-1062074-unsplash (1)-minsmall.jpg",
+            "imageSquare": "./img/jeff-kepler-1062074-unsplash (1)-min2.jpg",
+            "imagePort" : "./img/jeff-kepler-1062074-unsplash (1)-minport.jpg",
+            "alt" : "amet consectetur adipisicing elit",
+            "content" : [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eos quas dolore aliquid eaque, nemo quasi quidem illum dolor veritatis error incidunt reiciendis blanditiis porro magni animi sit recusandae quod odio doloribus id. Minima consequatur, iure pariatur id magni quos hic autem soluta quo odit eius, atque provident animi ipsam saepe amet blanditiis.",
+                "Corporis quod. Consequatur perferendis magni sunt tenetur odio officiis neque hic. Ipsum laborum, reiciendis dignissimos tempore quo illum amet labore, optio est impedit consectetur placeat necessitatibus cumque. Molestiae, est nisi mollitia laudantium fuga odio repellat atque assumenda. Molestias impedit, corrupti consectetur blanditiis esse.",
+                "eligendi eum asperiores laudantium odit dignissimos tempora officia? Distinctio minus magnam odit atque consectetur at id, quam delectus perspiciatis explicabo dolore quasi. Enim ab unde consectetur harum esse natus quas explicabo earum aliquam, modi consequatur corrupti perferendis dignissimos molestiae animi nostrum et provident sunt id dolores eos similique amet?"
+            ],
+            "contentDetail" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minus vitae aut rem explicabo doloribus.",
+            "author" : "Jenny Chung",
+            "authorLink" : "jenny-chung",
+            "tags" : ["lorem", "ispsum"]
+        },
+        {
+            "title" : "Are Your Chores Ruining Your Back?",
+            "date" : "October 7, 2018",
+            "shortDate" : "Oct 7, 2018",
+            "articleLink" : "are-your-chores-ruining-your-back",
+            "imageSmall" : "./img/jesper-aggergaard-495757-unsplash.jpg",
+            "image": "./img/jesper-aggergaard-495757-unsplashsmall.jpg",
+            "imageSquare": "./img/jesper-aggergaard-495757-unsplash2.jpg",
+            "imagePort" : "./img/jesper-aggergaard-495757-unsplashport.jpg",
+            "alt" : "Therapist massaging client's upper back",
+            "content" : [
+                "There are quite a bit of ways to befriend back pain and the way you do your chores could be one example. More precisely your posture can be causing that nagging back pain.",
+                "Take, for example, the dishes. If you’re anything like me and hate getting your clothes wet you’ll notice you stand away from and lean over the sink like a very gradual half arch. Depending on your sink placement relative to your arms you may or may not notice some back pain. But if you’re anything like me (again) standing at five feet tall, then you might notice while avoiding the wet (since my elbows are usually below and gravity works the drops down my arms) you step back to lean forward the distance of half a foot to the sink (to reach that darn faucet that’s another foot within the sink).",
+                "Analyze your dish washing position/posture we created a little math formula to find that golden ratio of you and sink (made with love)."
+            ],
+            "contentDetail" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minus vitae aut rem explicabo doloribus.",
+            "author" : "Jenny Chung",
+            "authorLink" : "jenny-chung",
+            "tags" : ["posture"]
+        },
+        {
+            "title" : "Consequatur perferendis",
+            "date" : "October 11, 2018",
+            "shortDate" : "Oct 6, 2018",
+            "articleLink" : "consequatur-perferendis",
+            "imageSmall" : "./img/hanson-lu-1116262-unsplash (1).jpg",
+            "image" : "./img/hanson-lu-1116262-unsplash (1)small.jpg",
+            "imageSquare" : "./img/hanson-lu-1116262-unsplash (1)2.jpg",
+            "imagePort" : "./img/hanson-lu-1116262-unsplash (1)port.jpg",
+            "alt" : "Corporis quod",
+            "content" : [
+                "Eligendi eum asperiores laudantium odit dignissimos tempora officia? Distinctio minus magnam odit atque consectetur at id, quam delectus perspiciatis explicabo dolore quasi. Enim ab unde consectetur harum esse natus quas explicabo earum aliquam, modi consequatur corrupti perferendis dignissimos molestiae animi nostrum et provident sunt id dolores eos similique amet?"
+            ],
+            "contentDetail" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minus vitae aut rem explicabo doloribus.",
+            "author" : "Jenny Chung",
+            "authorLink" : "jenny-chung",
+            "tags" : ["lorem", "ispsum"]
+        },
+        {
+            "title" : "The Rubber Band Chain Model",
+            "date" : "October 10, 2018",
+            "shortDate" : "Oct 10, 2018",
+            "articleLink" : "the-rubber-band-chain-model",
+            "imageSmall" : "./img/neonbrand-551953-unsplash.jpg",
+            "image": "./img/neonbrand-551953-unsplashsmall.jpg",
+            "imageSquare": "./img/neonbrand-551953-unsplash2.jpg",
+            "imagePort" : "./img/neonbrand-551953-unsplashport.jpg",
+            "alt" : "Streched rubber band",
+            "content" : [
+                "Our bodies are made up of many, many working parts. Sometimes we make the mistake of assuming our parts work individually to make the whole. This isn’t true. Our parts are interdependent on one another. We all know that if one person slacks in a team, then the whole team is affected. Before we learn anything it’s best we understand how our bodies move."
+            ],
+            "contentDetail" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minus vitae aut rem explicabo doloribus.",
+            "author" : "Jenny Chung",
+            "authorLink" : "jenny-chung",
+            "tags" : ["posture", "chain-model"]
+        },
+        {
+            "title" : "Posture: A Root of Pain",
+            "date" : "October 8, 2018",
+            "shortDate" : "Oct 8, 2018",
+            "articleLink" : "posture-a-root-of-pain",
+            "imageSmall" : "./img/clarisa-guerra-660773-unsplash.jpg",
+            "image": "./img/clarisa-guerra-660773-unsplashsmall.jpg",
+            "imageSquare": "./img/clarisa-guerra-660773-unsplash2.jpg",
+            "imagePort" : "./img/clarisa-guerra-660773-unsplashport.jpg",
+            "alt" : "Woman hunched over at her office",
+            "content" : [
+                "Growing up we were constantly pestered by the reminder to straighten up our backs. And for a very good reason. In our Rubber Band Chain Model article we explored the interdependent nature of our bodies. The consequences of good posture (or lack of it) will affect the parts down the chain."
+            ],
+            "contentDetail" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minus vitae aut rem explicabo doloribus.",
+            "author" : "Jenny Chung",
+            "authorLink" : "jenny-chung",
+            "tags" : ["posture", "pain"]
+        },
+        {
+            "title" : "Lorem ipsum dolor sit",
+            "date" : "October 4, 2018",
+            "shortDate" : "Oct 4, 2018",
+            "articleLink" : "lorem",
+            "imageSmall" : "./img/bruno-nascimento-149663-unsplash-min.jpg",
+            "image": "./img/bruno-nascimento-149663-unsplash-minsmall.jpg",
+            "imageSquare": "./img/bruno-nascimento-149663-unsplash-min2.jpg",
+            "imagePort" : "./img/bruno-nascimento-149663-unsplash-minport.jpg",
+            "alt" : "lorem ipsum",
+            "content" : [
+                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium in quo asperiores debitis et, repellat nulla sed accusantium nihil veritatis? Cum amet quod iste harum reiciendis iure facere fugit rerum maiores non quaerat cupiditate dicta, atque vitae minima laudantium impedit aliquid. Illo id corporis cumque ducimus.", 
+                "Repellat perferendis reiciendis tempore, modi sapiente nobis minus. Ut quasi quam sed. Quidem voluptatem atque repellendus aliquid quos earum, velit reprehenderit aut? Quod tempora delectus labore, quas cumque architecto suscipit veritatis magnam maxime? Nemo enim omnis, molestias ad ullam quo ducimus eos molestiae, quod, unde reiciendis consequatur facere.", 
+                "Quas, fuga eum. Asperiores accusamus optio fugiat quaerat quos corrupti dignissimos eaque porro necessitatibus veritatis fuga ex facilis culpa pariatur deserunt natus cumque alias eius animi quam in repudiandae recusandae, provident tempora! Illum, error, voluptate voluptatibus accusantium est debitis molestias excepturi, aspernatur quibusdam voluptas aut id numquam maiores quae fugit dolore dignissimos autem? Provident maiores architecto, rem aperiam quos iure itaque pariatur ipsum exercitationem laboriosam voluptates atque commodi quam aliquam repellendus distinctio facilis sunt sapiente maxime! Eveniet dolore tenetur alias sit. Laboriosam labore ipsum id corrupti corporis! Explicabo, numquam. Non nobis consequuntur cumque molestiae laudantium! Eligendi, quisquam? At ab dolor iusto praesentium. Nulla, rerum a culpa ullam iusto quos sed reprehenderit qui fuga? Dolore facere assumenda quia explicabo! Excepturi adipisci vero voluptatibus minus, eos quibusdam soluta optio ut sequi aliquam non, unde at est omnis! Illo ut quod cupiditate dignissimos ullam eaque amet libero nulla maxime deleniti tempore culpa officiis, quidem beatae quas omnis error in tenetur. Animi laudantium quibusdam quas enim optio tempora possimus velit dolorem? Quos neque eum dolorum consequuntur illo iusto minus modi consectetur dolore unde consequatur nam, facere quidem optio totam dolores dicta necessitatibus nobis perspiciatis. Aut odit quod doloribus cum dolores quas rem, esse voluptate reprehenderit! Labore sed sit optio vitae.",
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur nam dolor quasi nisi eos recusandae amet ullam sequi, impedit consequatur id culpa, accusamus, aliquid reprehenderit. Dolorem rerum obcaecati hic vero fuga ipsam inventore expedita error iste! Dolor nemo suscipit, aut temporibus dolore officia voluptates, laborum quod voluptas, ullam amet similique odio architecto ea nostrum ex? Ad beatae a perspiciatis fugit libero rerum cum vero labore soluta eos quos pariatur assumenda, iusto consequatur incidunt dicta sequi quidem. Voluptatibus laboriosam esse modi omnis, quasi officia numquam accusantium, repellendus ad sequi alias soluta explicabo fugiat. Praesentium hic, ab amet necessitatibus temporibus architecto eos id omnis inventore odit eligendi ea quod? Consequuntur adipisci voluptatibus aliquam quisquam doloribus rem nam, molestias perspiciatis debitis aliquid provident quam culpa quia, ipsam dolorum ducimus? Enim consectetur est, nihil porro repudiandae exercitationem expedita? Totam saepe minima quam in vitae ratione eveniet praesentium, error rerum accusamus, adipisci, amet id. Libero mollitia perspiciatis asperiores temporibus esse adipisci vitae eos. Enim similique ut doloremque, possimus aspernatur ad error nam tempora id, accusantium quos illum animi earum? Repellendus accusantium et omnis iste ab nihil, qui facilis dolor id officiis asperiores molestias assumenda! Sequi quae explicabo amet provident voluptatum corporis est animi commodi maiores molestias tenetur ex minima, veritatis omnis reiciendis deserunt voluptas tempora veniam molestiae ullam! Modi dicta tenetur ab. Accusamus illo deleniti corrupti nam veniam delectus, qui ullam, minima necessitatibus, laudantium ratione blanditiis assumenda maiores architecto magni. Dicta adipisci eligendi recusandae necessitatibus iste et saepe autem quidem perspiciatis quibusdam veniam.", 
+                "Tempore ex odit esse vitae assumenda omnis molestias hic magnam ab, minima est fuga. Iusto temporibus ducimus, ipsa quisquam eaque impedit. Possimus nulla amet perspiciatis ullam soluta nemo ea molestiae at consequuntur, hic optio dolorum ex eligendi quibusdam ipsum a dicta facere! Maxime libero accusamus dicta odio illum quam omnis in necessitatibus excepturi facilis atque nobis id voluptate officia, ratione, tempore tempora vel minima sunt quae doloribus eligendi quisquam dolor earum? Officiis assumenda, autem, qui quas id voluptates quibusdam doloribus, nobis quod nihil architecto deserunt sapiente. Impedit omnis officia id et quaerat!"
+            ],
+            "contentDetail" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minus vitae aut rem explicabo doloribus.",
+            "author" : "Jenny Chung",
+            "authorLink" : "jenny-chung",
+            "tags" : ["lorem", "ispsum"]
+        },
+        {
+            "title" : "Numquam Minus Vitae",
+            "date" : "October 3, 2018",
+            "shortDate" : "Oct 3, 2018",
+            "articleLink" : "numquam-minus-vitae",
+            "imageSmall" : "./img/markus-spiske-544020-unsplash-min.jpg",
+            "image": "./img/markus-spiske-544020-unsplash-minsmall.jpg",
+            "imageSquare" : "./img/markus-spiske-544020-unsplash-min2.jpg",
+            "imagePort" : "./img/markus-spiske-544020-unsplash-minport.jpg",
+            "alt" : "Numquam Minus Vitae",
+            "content" : [
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia amet iure in. Commodi quae reprehenderit autem beatae iure? Neque cumque praesentium perspiciatis sequi temporibus laboriosam amet nostrum nisi non ab consectetur quaerat vel sapiente harum numquam officiis inventore, maxime officia fugit? Ad vero dolore amet eaque minus aut fugit nam, saepe animi est modi sit ut praesentium veniam."
+            ],
+            "contentDetail" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minus vitae aut rem explicabo doloribus.",
+            "author" : "Jenny Chung",
+            "authorLink" : "jenny-chung",
+            "tags" : ["lorem", "ispsum"]
+        },
+        {
+            "title" : "Corporis quod",
+            "date" : "October 2, 2018",
+            "shortDate" : "Oct 2, 2018",
+            "articleLink" : "corporis-quod",
+            "imageSmall" : "./img/sarah-cervantes-250403-unsplash (1)-min.jpg",
+            "image": "./img/sarah-cervantes-250403-unsplash (1)-minsmall.jpg",
+            "imageSquare" : "./img/sarah-cervantes-250403-unsplash (1)-min2.jpg",
+            "imagePort" : "./img/sarah-cervantes-250403-unsplash (1)-minport.jpg",
+            "alt" : "Corporis quod",
+            "content" : [
+                "Corporis quod. Consequatur perferendis magni sunt tenetur odio officiis neque hic. Ipsum laborum, reiciendis dignissimos tempore quo illum amet labore, optio est impedit consectetur placeat necessitatibus cumque. Molestiae, est nisi mollitia laudantium fuga odio repellat atque assumenda. Molestias impedit, corrupti consectetur blanditiis esse.",
+                "eligendi eum asperiores laudantium odit dignissimos tempora officia? Distinctio minus magnam odit atque consectetur at id, quam delectus perspiciatis explicabo dolore quasi. Enim ab unde consectetur harum esse natus quas explicabo earum aliquam, modi consequatur corrupti perferendis dignissimos molestiae animi nostrum et provident sunt id dolores eos similique amet?"
+            ],
+            "contentDetail" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minus vitae aut rem explicabo doloribus.",
+            "author" : "Jenny Chung",
+            "authorLink" : "jenny-chung",
+            "tags" : ["lorem", "ispsum"]
+        },
+        {
+            "title" : "Corporis quod 2",
+            "date" : "October 2, 2018",
+            "shortDate" : "Oct 2, 2018",
+            "articleLink" : "corporis-quod-2",
+            "imageSmall" : "./img/sarah-cervantes-250403-unsplash (1)-min.jpg",
+            "image": "./img/sarah-cervantes-250403-unsplash (1)-minsmall.jpg",
+            "imageSquare" : "./img/sarah-cervantes-250403-unsplash (1)-min2.jpg",
+            "imagePort" : "./img/sarah-cervantes-250403-unsplash (1)-minport.jpg",
+            "alt" : "Corporis quod",
+            "content" : [
+                "Corporis quod. Consequatur perferendis magni sunt tenetur odio officiis neque hic. Ipsum laborum, reiciendis dignissimos tempore quo illum amet labore, optio est impedit consectetur placeat necessitatibus cumque. Molestiae, est nisi mollitia laudantium fuga odio repellat atque assumenda. Molestias impedit, corrupti consectetur blanditiis esse.",
+                "eligendi eum asperiores laudantium odit dignissimos tempora officia? Distinctio minus magnam odit atque consectetur at id, quam delectus perspiciatis explicabo dolore quasi. Enim ab unde consectetur harum esse natus quas explicabo earum aliquam, modi consequatur corrupti perferendis dignissimos molestiae animi nostrum et provident sunt id dolores eos similique amet?"
+            ],
+            "contentDetail" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minus vitae aut rem explicabo doloribus.",
+            "author" : "Jenny Chung",
+            "authorLink" : "jenny-chung",
+            "tags" : ["lorem", "ispsum"]
+        },
+        {
+            "title" : "Amet Consectetur Adipisicing 2",
+            "date" : "October 5, 2018",
+            "shortDate" : "Oct 5, 2018",
+            "articleLink" : "amet-consectetur-adipisicing-elit-2",
+            "imageSmall" : "./img/jeff-kepler-1062074-unsplash (1)-min.jpg",
+            "image": "./img/jeff-kepler-1062074-unsplash (1)-minsmall.jpg",
+            "imageSquare": "./img/jeff-kepler-1062074-unsplash (1)-min2.jpg",
+            "imagePort" : "./img/jeff-kepler-1062074-unsplash (1)-minport.jpg",
+            "alt" : "amet consectetur adipisicing elit",
+            "content" : [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eos quas dolore aliquid eaque, nemo quasi quidem illum dolor veritatis error incidunt reiciendis blanditiis porro magni animi sit recusandae quod odio doloribus id. Minima consequatur, iure pariatur id magni quos hic autem soluta quo odit eius, atque provident animi ipsam saepe amet blanditiis.",
+                "Corporis quod. Consequatur perferendis magni sunt tenetur odio officiis neque hic. Ipsum laborum, reiciendis dignissimos tempore quo illum amet labore, optio est impedit consectetur placeat necessitatibus cumque. Molestiae, est nisi mollitia laudantium fuga odio repellat atque assumenda. Molestias impedit, corrupti consectetur blanditiis esse.",
+                "eligendi eum asperiores laudantium odit dignissimos tempora officia? Distinctio minus magnam odit atque consectetur at id, quam delectus perspiciatis explicabo dolore quasi. Enim ab unde consectetur harum esse natus quas explicabo earum aliquam, modi consequatur corrupti perferendis dignissimos molestiae animi nostrum et provident sunt id dolores eos similique amet?"
+            ],
+            "contentDetail" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minus vitae aut rem explicabo doloribus.",
+            "author" : "Jenny Chung",
+            "authorLink" : "jenny-chung",
+            "tags" : ["lorem", "ispsum"]
+        },
+        {
+            "title" : "Numquam Minus Vitae 2",
+            "date" : "October 3, 2018",
+            "shortDate" : "Oct 3, 2018",
+            "articleLink" : "numquam-minus-vitae-2",
+            "imageSmall" : "./img/markus-spiske-544020-unsplash-min.jpg",
+            "image": "./img/markus-spiske-544020-unsplash-minsmall.jpg",
+            "imageSquare" : "./img/markus-spiske-544020-unsplash-min2.jpg",
+            "imagePort" : "./img/markus-spiske-544020-unsplash-minport.jpg",
+            "alt" : "Numquam Minus Vitae",
+            "content" : [
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia amet iure in. Commodi quae reprehenderit autem beatae iure? Neque cumque praesentium perspiciatis sequi temporibus laboriosam amet nostrum nisi non ab consectetur quaerat vel sapiente harum numquam officiis inventore, maxime officia fugit? Ad vero dolore amet eaque minus aut fugit nam, saepe animi est modi sit ut praesentium veniam."
+            ],
+            "contentDetail" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minus vitae aut rem explicabo doloribus.",
+            "author" : "Jenny Chung",
+            "authorLink" : "jenny-chung",
+            "tags" : ["lorem", "ispsum"]
+        },
+        {
+            "title" : "Consequatur perferendis 2",
+            "date" : "October 11, 2018",
+            "shortDate" : "Oct 6, 2018",
+            "articleLink" : "consequatur-perferendis-2",
+            "imageSmall" : "./img/hanson-lu-1116262-unsplash (1).jpg",
+            "image" : "./img/hanson-lu-1116262-unsplash (1)small.jpg",
+            "imageSquare" : "./img/hanson-lu-1116262-unsplash (1)2.jpg",
+            "imagePort" : "./img/hanson-lu-1116262-unsplash (1)port.jpg",
+            "alt" : "Corporis quod",
+            "content" : [
+                "Eligendi eum asperiores laudantium odit dignissimos tempora officia? Distinctio minus magnam odit atque consectetur at id, quam delectus perspiciatis explicabo dolore quasi. Enim ab unde consectetur harum esse natus quas explicabo earum aliquam, modi consequatur corrupti perferendis dignissimos molestiae animi nostrum et provident sunt id dolores eos similique amet?"
+            ],
+            "contentDetail" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minus vitae aut rem explicabo doloribus.",
+            "author" : "Jenny Chung",
+            "authorLink" : "jenny-chung",
+            "tags" : ["lorem", "ispsum"]
+        },
+        {
+            "title" : "The Rubber Band Chain Model 2",
+            "date" : "October 10, 2018",
+            "shortDate" : "Oct 10, 2018",
+            "articleLink" : "the-rubber-band-chain-model-2",
+            "imageSmall" : "./img/neonbrand-551953-unsplash.jpg",
+            "image": "./img/neonbrand-551953-unsplashsmall.jpg",
+            "imageSquare": "./img/neonbrand-551953-unsplash2.jpg",
+            "imagePort" : "./img/neonbrand-551953-unsplashport.jpg",
+            "alt" : "Streched rubber band",
+            "content" : [
+                "Our bodies are made up of many, many working parts. Sometimes we make the mistake of assuming our parts work individually to make the whole. This isn’t true. Our parts are interdependent on one another. We all know that if one person slacks in a team, then the whole team is affected. Before we learn anything it’s best we understand how our bodies move."
+            ],
+            "contentDetail" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minus vitae aut rem explicabo doloribus.",
+            "author" : "Jenny Chung",
+            "authorLink" : "jenny-chung",
+            "tags" : ["posture", "chain-model"]
+        },
+        {
+            "title" : "Posture: A Root of Pain 2",
+            "date" : "October 8, 2018",
+            "shortDate" : "Oct 8, 2018",
+            "articleLink" : "posture-a-root-of-pain-2",
+            "imageSmall" : "./img/clarisa-guerra-660773-unsplash.jpg",
+            "image": "./img/clarisa-guerra-660773-unsplashsmall.jpg",
+            "imageSquare": "./img/clarisa-guerra-660773-unsplash2.jpg",
+            "imagePort" : "./img/clarisa-guerra-660773-unsplashport.jpg",
+            "alt" : "Woman hunched over at her office",
+            "content" : [
+                "Growing up we were constantly pestered by the reminder to straighten up our backs. And for a very good reason. In our Rubber Band Chain Model article we explored the interdependent nature of our bodies. The consequences of good posture (or lack of it) will affect the parts down the chain."
+            ],
+            "contentDetail" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minus vitae aut rem explicabo doloribus.",
+            "author" : "Jenny Chung",
+            "authorLink" : "jenny-chung",
+            "tags" : ["posture", "pain"]
+        }
+    ]
+}

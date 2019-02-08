@@ -1,0 +1,109 @@
+@import '../../config/variable.scss';
+
+.featured-note-h2-container {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-note-h2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.featured-note-animation {
+  display: flex;
+  flex-direction: row;
+}
+
+.circle-animation {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+@keyframes merryCircle1 {
+  from {
+    transform: rotate(360deg);
+  }
+  // to {
+  // }
+}
+
+@keyframes merryCircle2 {
+  from {
+    transform: rotate(-360deg);
+  }
+  // to {
+  // }
+}
+
+@keyframes merryCircle3 {
+  from {
+    transform: rotate(360deg);
+  }
+  // to {
+  // }
+}
+
+@keyframes merryCircle4 {
+  from {
+    transform: rotate(360deg);
+  }
+  // to {
+  // }
+}
+
+.circle-1 {
+  -webkit-box-shadow: inset -0.5px -0.5px 0px 0px rgba(39,141,170,1);
+  -moz-box-shadow: inset -0.5px -0.5px 0px 0px rgba(39,141,170,1);
+  box-shadow: inset -0.5px -0.5px 0px 0px rgba(39,141,170,1);
+  width: 7em;
+  height: 7em;
+  animation: 2.5s 1 merryCircle1;
+}
+
+.circle-2 {
+  -webkit-box-shadow: inset -0.5px 0.5px 0px 0px rgba(39,141,170,1);
+  -moz-box-shadow: inset -0.5px 0.5px 0px 0px rgba(39,141,170,1);
+  box-shadow: inset -0.5px 0.5px 0px 0px rgba(39,141,170,1);
+  width: 7em;
+  height: 7em;
+  transition: 1s;
+  animation:  2.5s 1.5s 1 merryCircle2;
+}
+
+.circle-3 {
+  -webkit-box-shadow: inset 0.5px 0.5px 0px 0px rgba(39,141,170,1);
+  -moz-box-shadow: inset 0.5px 0.5px 0px 0px rgba(39,141,170,1);
+  box-shadow: inset 0.5px 0.5px 0px 0px rgba(39,141,170,1);
+  width: 7em;
+  height: 7em;
+  transition: 1s;
+  animation: 2.5s 3s 1 merryCircle3;
+
+}
+
+.circle-4 {
+  -webkit-box-shadow: inset 0.5px -0.5px 0px 0px rgba(39,141,170,1);
+  -moz-box-shadow: inset 0.5px -0.5px 0px 0px rgba(39,141,170,1);
+  box-shadow: inset 0.5px -0.5px 0px 0px rgba(39,141,170,1);
+  width: 7em;
+  height: 7em;
+  transition: 1s;
+  animation: 2.5s 4.5s 1 merryCircle4;
+
+}
+
+.featured-note-logo {
+  animation: none;
+  
+  font-size: $m-title;
+  font-family: $brand-font;
+}

@@ -1,0 +1,34 @@
+@import '../../../config/variable.scss';
+
+.subscribe-btn-round {
+    height: 3em;
+    padding: 0em 1.75em;
+    font-size: $m-small;
+    background-color: $brand-color;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    
+    position: relative;
+
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+
+
+    transition: all .4s ease-in-out;
+}
+
+.subscribe-btn-round:hover {
+    background-color: #FFF;
+    color: $brand-color;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+
+    // padding: 0em 1.5em;
+
+    -webkit-box-shadow: inset 0px 0px 0px 0.75px rgba(39,141,170,1);
+    -moz-box-shadow: inset 0px 0px 0px 0.75px rgba(39,141,170,1);
+    box-shadow: inset 0px 0px 0px 0.75px rgba(39,141,170,1);
+}

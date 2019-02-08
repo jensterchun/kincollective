@@ -1,0 +1,52 @@
+@import '../../config/variable.scss';
+
+.subscribe-container {
+    grid-area: subsc;
+    display: flex; 
+    justify-content: space-between;
+    margin: 0;
+}
+
+.subscribe-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    padding-right: 2em;
+}
+
+.subscribe-form {
+    padding-top: 1.5em;
+}
+
+@media (min-width: 1625px) {
+    .subscribe-container {
+        margin: 5em $media-large 5em;
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+@media (min-width: 1225px) and (max-width: 1624px) {
+    .subscribe-container {
+        margin: 5em $media-medium 5em;
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1224px) {
+    .subscribe-container {
+        margin: 5em $media-small 5em;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+}
+
+@media (max-width: 767px) {
+    .subscribe-container {
+        margin: 5em $media-smallest 5em;
+        display: flex;
+        flex-direction: column;
+    }
+}

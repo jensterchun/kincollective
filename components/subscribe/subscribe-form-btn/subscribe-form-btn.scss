@@ -1,0 +1,8 @@
+@import '../../../config/variable.scss';
+
+.mc-field-group {
+    font-family: $open-font;
+    font-size: $m-smaller;
+    display: flex;
+    flex-direction: column;
+}

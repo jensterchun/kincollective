@@ -1,0 +1,114 @@
+@import '../../../config/variable.scss';
+
+.featured-article-card-tags {
+    font-size: $m-smallest;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.featured-article-card-tags a {
+    color: $darker-fill-color;
+}
+
+.featured-article-card-tags a:hover {
+    color: $brand-color;
+}
+
+// .featured-article-card-title {
+//     width: auto;
+//     white-space: nowrap;
+//     overflow: hidden;
+//     text-overflow: ellipsis;
+// }
+
+.featured-article-card-time-author {
+    font-size: $m-smallest;
+    text-transform: uppercase;
+    background-color: $fill-color;
+}
+
+.featured-article-card-text-block {
+    font-size: $m-small;
+    cursor: text;
+}
+
+.featured-article-card-more-link-container {
+    font-size: $m-small;
+}
+
+@media (min-width: 1225px) {
+    .featured-article-card-container {
+        display: grid;
+        grid-template-columns: .45fr .6fr;
+        grid-template-rows: auto;
+        grid-gap: 2.5%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1224px) {
+    .featured-article-card-container {
+        display: grid;
+        grid-template-columns: .45fr .6fr;
+        grid-template-rows: auto;
+        grid-gap: 2.5%;
+    }
+}
+
+@media (min-width: 768px) {
+    .featured-article-card-header {
+        padding-bottom: .8em;
+    }
+
+    .featured-article-card-title {
+        font-size: $m-title;
+        padding: 0 0 .3em .3em;
+    }
+
+    .featured-article-card-time-author {
+        padding: .6em;
+    }
+
+    .featured-article-card-text-block {
+        padding-left: .5em;
+    }
+    
+    .featured-article-card-more-link-container {
+        padding: .9em .5em;
+    }
+
+    .featured-article-card-tags {
+        padding: .25em;
+    }
+}
+
+@media (max-width: 767px) {
+    .featured-article-card-container {
+        margin-bottom: 5em;
+    }
+
+    .featured-article-card-header {
+        padding-bottom: .8em;
+    }
+  
+    .featured-article-card-title {
+        font-size: $m-title;
+        padding: .25em 2.5% .4em;
+    }
+    .featured-article-card-time-author {
+        padding: .6em 2.5% .5em;
+    }
+
+    .featured-article-card-text-block {
+        padding: 0em 2.5%;
+    }
+
+    .featured-article-card-more-link-container {
+        padding: .6em 2.5% .9em;
+    }
+
+    .featured-article-card-tags {
+        padding: .6em 2.5%;
+        background-color: $fill-color;
+        border-bottom: $light-border;
+    }
+}

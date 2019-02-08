@@ -1,0 +1,108 @@
+@import '../../config/variable.scss';
+
+.menu-btns {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  padding: 0 1em;
+  margin: 0 .5em;
+  transition: all .25s ease-in-out;
+  &:hover {
+    fill:$between-fill-color;
+  }
+  height: $head-1;
+  @media (min-width: 1625px) {
+    height: $head-4;
+  }
+  @media (min-width: 1225px) and (max-width: 1624px) {
+    height: $head-3;
+  }
+  @media (min-width: 768px) and (max-width: 1224px) {
+    height: $head-2;
+  }
+}
+
+.js-noscroll {
+  overflow: hidden;
+}
+
+.menu-container {
+  position: relative;
+  top: 0;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+  @media (min-width: 1225px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  height: 200px;
+  @media (min-width: 1625px) {
+    height: 400px;
+    top: -$head-4;
+  }
+  @media (min-width: 1225px) and (max-width: 1624px) {
+    height: 350px;
+    top: -$head-3;
+  }
+  @media (min-width: 601px) and (max-width: 1224px) {
+    height: 200px;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu-list {
+  font-size: $m-title-small;
+  font-family: $open-font;
+  display: flex;
+  flex-direction: row;
+  @media (min-width: 1225px) {
+    flex-direction: column;
+  }
+  a {
+    color: $darker-fill-color;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    margin: .75em .5em;
+    transition: all .35s;
+    &:hover {
+      color: #000;
+      -webkit-box-shadow: inset 0px -1px 0px 0px rgba(39,141,170,1);
+      -moz-box-shadow: inset 0px -1px 0px 0px rgba(39,141,170,1);
+      box-shadow: inset 0px -1px 0px 0px rgba(39,141,170,1);
+    }
+  }
+}
+
+.menu-bottom-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.js-overlay {
+  height: 200vh;
+  width: 100%;
+  background-color: rgba(63, 63, 63, 0.75);
+  position: absolute;
+  margin-top: 0;
+  @media (min-width: 1625px) {
+    margin-top: -$head-4;
+  }
+  @media (min-width: 1225px) and (max-width: 1624px) {
+    margin-top: -$head-3;
+  }
+}

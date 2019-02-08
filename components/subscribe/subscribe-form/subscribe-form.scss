@@ -1,0 +1,42 @@
+@import '../../../config/variable.scss';
+
+.email-input {
+    margin-right: -1.05em;
+}
+
+.subscribe-signup-container {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.mc-field-group {
+    font-family: $open-font;
+    font-size: $m-smaller;
+    display: flex;
+    flex-direction: column;
+}
+
+.mc-field-group input {
+    padding-left: 1.5em;
+    width: 22em;
+    height: 3.5em;
+    font-family: $open-font;
+    font-size: $m-small;
+    border: $light-border;
+    border-right: none;
+
+    -webkit-border-top-left-radius: 25px;
+    // -webkit-border-bottom-left-radius: 25px;
+    -moz-border-radius-topleft: 25px;
+    // -moz-border-radius-bottomleft: 25px;
+    border-top-left-radius: 25px;
+    // border-bottom-left-radius: 25px;
+}
+
+input:-webkit-autofill, 
+textarea:-webkit-autofill, 
+select:-webkit-autofill {
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 0px 1000px rgb(255, 255, 255) inset;
+}

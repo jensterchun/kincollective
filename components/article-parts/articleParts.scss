@@ -1,0 +1,62 @@
+@import '../../config/variable.scss';
+
+.tag-icon{
+  &-gray {
+    padding: .2em .2em 0 0;
+    fill: $darker-fill-color;
+  }
+  &-link-container {
+    padding-right: .5em;
+  }
+  &-link:hover &-gray {
+    fill: $brand-color;
+  }
+}
+
+.menu-bottom {
+  border-top: solid .5px $between-fill-color;
+  color: $darker-fill-color;
+  font-size: $m-small;
+  font-family: $open-font;
+  margin: .8em;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  @media (min-width: 1225px) {
+    width: auto;
+    flex-direction: column;
+    border-top: none;
+    border-left: solid .5px $between-fill-color;
+  }    
+  a {
+    padding: .5em;
+    margin: .75em 0;
+    color: $brand-color;
+    transition: all .3s;
+    &:hover {
+      color: $darker-fill-color;
+      -webkit-box-shadow: inset 0px -1px 0px 0px rgba(39,141,170,1);
+      -moz-box-shadow: inset 0px -1px 0px 0px rgba(39,141,170,1);
+      box-shadow: inset 0px -1px 0px 0px rgba(39,141,170,1);
+    }
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    p {
+      padding: .5em;
+    }
+  }
+}
+
+li {
+  list-style-type: none;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.tag-divider {
+  padding: 0 .2em;
+}

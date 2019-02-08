@@ -1,0 +1,166 @@
+@import './config/variable.scss';
+@import './components/00-construction/construction.scss';
+@import './components/subscribe/subscribe.scss';
+@import './components/01-header/header.scss';
+@import './components/03-menu/menu.scss';
+@import './components/02-nav/nav.scss';
+@import './components/04-home/home.scss';
+@import './components/04-home/featured-article-card/featuredArticleCard.scss';
+@import './components/04-home/article-cards/articleCards.scss';
+
+@import './components/tags-car/tagsCar.scss';
+@import './components/articles-page/articlesPage.scss';
+@import './components/articles-page/featured-article-card/featuredArticlesPageCard.scss';
+@import './components/articles-page/article-cards/articlesPageCards.scss';
+@import './components/error/noMatch.scss';
+@import './components/authors-page/authorsPage.scss';
+@import './components/tags-page/tagsPage.scss';
+@import './components/about-page/aboutPage.scss';
+@import './components/support-page/supportPage.scss';
+@import './components/searchBar/SearchBar.scss';
+@import './components/subscribe-page/subscribePage.scss';
+@import './components/subscribe/subscribe-form/subscribe-form.scss';
+@import './components/subscribe/subscribe-btn/subscribe-btn.scss';
+@import './components/subscribe/subscribe-btn-round/subscribe-btn-round.scss';
+@import './components/subscribe/subscribe-form-btn/subscribe-form-btn.scss';
+@import './components/developer-page/developerPage.scss';
+@import './components/featured-note/featuredNote.scss';
+@import './components/thanks-page/thanksPage.scss';
+@import './components/article-parts/articleParts.scss';
+@import './components/article/article.scss';
+@import './components/footer/footer.scss';
+@import './components/author/author.scss';
+@import './components/tags/tags.scss';
+
+body {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $brand-color;
+}
+
+a:hover {
+  color: $darker-fill-color;
+  cursor: pointer;
+}
+
+a:focus {
+  outline: none;
+  outline: 0
+}
+
+time {
+  cursor: default;
+}
+
+button:focus {
+  outline: 0;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.contain-all {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.45;
+  font-size: 13px;
+  @media (min-width: 1225px){
+    font-size: 16px;
+  }
+  @media (min-width: 768px) and (max-width: 1224px) {
+    font-size: 15px;
+  }
+  @media (min-width: 401px) and (max-width: 767px) {
+    font-size: 14px;
+  }
+}
+
+.body-container {
+  font-family: $open-font;
+  margin-top: $head-1;
+  @media (min-width: 1625px) {
+    margin-top: $head-4;
+  }
+  @media (min-width: 1225px) and (max-width: 1624px) {
+    margin-top: $head-3;
+  }
+  @media (min-width: 768px) and (max-width: 1224px) {
+    margin-top: $head-2;
+  }
+}
+
+// There's likely a better way, but for now 
+// there are 3 different types of medias:
+// 2 (2 views), 3 (3 views), 4 (four views).
+
+//3
+//desktop3
+@media (min-width: 768px) {
+  .mobile3-- { display: none; }
+  .mobile3-S-- { display: none; }
+}
+//mobile3
+@media (min-width: 401px) and (max-width: 767px) {
+  .desktop3-- { display: none; }
+  .mobile3-S-- { display: none; }
+}
+//mobile3-S
+@media (max-width: 400px) {
+  .desktop3-- { display: none; }
+  .mobile3-- { display: none; }
+}
+
+//4
+//desktop4-XL
+@media (min-width: 1625px) {
+  .mobile4-- { display: none; }
+  .desktop4-- { display: none; }
+  .desktop4-L-- { display: none; }
+}
+//desktop4-L
+@media (min-width: 1224px) and (max-width: 1624px) {
+  .mobile4-- { display: none; }
+  .desktop4-- { display: none; }
+  .desktop4-XL-- { display: none; }
+}
+//desktop4
+@media (min-width: 768px) and (max-width: 1224px) {
+  .mobile4-- { display: none; }
+  .desktop4-L-- { display: none; }
+  .desktop4-XL-- { display: none; }
+}
+//mobile4
+@media (max-width: 767px) {
+  .desktop4-- { display: none; }
+  .desktop4-L-- { display: none; }
+  .desktop4-XL-- { display: none; }
+}
+
+//2 1624
+//desktop
+@media (min-width: 1625px) {
+  .mobile1624-- { display: none; }
+}
+//mobile
+@media (max-width: 1624px) {
+  .desktop1624-- { display: none; }
+}
+
+//2
+//desktop2
+@media (min-width: 768px) {
+  .mobile2-- { display: none; }
+}
+//mobile2
+@media (max-width: 767px) {
+  .desktop2-- { display: none; }
+}

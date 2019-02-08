@@ -1,0 +1,99 @@
+@import '../../config/variable.scss';
+
+.article-container {
+  font-family: $open-font;
+  cursor: default;
+  padding: 0 2.5%;
+  margin: 0 $media-smallest 3em;
+  @media (min-width: 1625px) {
+      margin: 0 $media-large 3em;
+  }
+  @media (min-width: 1225px) and (max-width: 1624px) {
+      margin: 0 $media-medium 3em;
+  }
+  @media (min-width: 768px) and (max-width: 1224px) {
+      margin: 0 $media-small 3em;
+  }
+}
+
+.article-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $m-smallest;
+  padding-top: 4em;
+  text-transform: uppercase;
+  color: rgba(51, 51, 51, 0.76);
+}
+
+.mega-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-size: $big;
+  padding: 1.1em 0;
+}
+
+.article-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.author-tags {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 1em 0;
+}
+
+.article-tag-dropdown {
+  span {
+    display: none;
+    transition: all .45s ease-in-out;
+  }
+  &:hover {
+    background-color: $fill-color;
+    border-radius: 3px;
+    span {
+      animation: .45s forwards spread;
+      display: inline-flex;
+      flex-direction: row;
+      // a {
+        // padding-right: .5em;
+      // }
+    }
+  }
+}
+
+@keyframes spread {
+  from {
+    opacity: .5;
+  }
+  to {
+    opacity: 1;
+    padding: 0 .1em;
+    fill: $between-fill-color;
+  }
+}
+
+.article-content {
+  padding: 1.5em 0;
+}
+
+.article-divider {
+  border-bottom: $light-border;
+  width: 100%;
+  padding-top: 1em;
+  margin-bottom: 2em; 
+}
+
+.prev-nxt {
+  display: flex;
+  justify-content: space-between;
+}
+
+// .article-comment-container {
+//   grid-area: comment;
+// }

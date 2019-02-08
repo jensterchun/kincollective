@@ -1,0 +1,181 @@
+@import '../../config/variable.scss';
+
+.home {
+    &-body {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 3em repeat(5, auto);
+        grid-template-areas:
+            "featuredArticle"
+            "articleTitle"
+            "articleGrid"
+            "morearticles"
+            "subsc"
+            "resources"
+            "featuredAuthor";
+        font-family: $open-font;
+        @media (min-width: 768px) {
+            padding-top: 3.25em;
+        }
+    }
+
+    &-featured-article-card {
+        grid-area: featuredArticle;
+        @media (min-width: 1625px) {
+            margin: 0 $media-large 2.5%;
+        }
+        @media (min-width: 1225px) and (max-width: 1624px) {
+            margin: 0 $media-medium 2.5%;
+        }
+        @media (min-width: 768px) and (max-width: 1224px) {
+            margin: 0 $media-small 5em;
+        }
+    }
+
+    &-article-card-header {
+        grid-area: articleTitle;
+        display: flex;
+        justify-content: space-between;
+        border-top: $light-border;
+        border-bottom: $light-border;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 2.5%;
+        @media (min-width: 1625px) {
+            margin: 0 $media-large;
+            padding: 0 .75% 0 .2%;
+        }
+        @media (min-width: 1225px) and (max-width: 1624px) {
+            margin: 0 $media-medium;
+            padding: 0 .75% 0 .2%;
+        }
+        @media (min-width: 768px) and (max-width: 1224px) {
+            margin: 0 $media-small;
+            padding: 0 .75% 0 .2%;
+        }
+        a {
+            transition: all .25s ease-in-out;
+            color: #000;
+            svg {
+                padding-left: .1em;
+                fill: $between-fill-color;
+            }
+            &:hover {
+                margin-right: -.2em;
+                fill: #000;
+                transition: all .25s ease-in-out;
+                svg {
+                    fill: #000;
+                }
+            }
+        }
+    }
+    &-article-grid {
+        grid-area: articleGrid;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5em;
+        @media (min-width: 1625px) {
+            margin: 1.75em $media-large;
+            display: grid;
+            grid-template-columns: repeat( 3, 1fr);
+            grid-template-rows: auto;
+            grid-gap: 2em;
+        }
+        @media (min-width: 1225px) and (max-width: 1624px) {
+            margin: 1.75em $media-medium;
+            display: grid;
+            grid-template-columns: repeat( 3, 1fr);
+            grid-template-rows: auto;
+            grid-gap: 2em;
+        }
+        @media (min-width: 768px) and (max-width: 1224px) {
+            margin: 1.75em $media-small;
+            display: grid;
+            grid-template-columns: repeat( 2, 1fr);
+            grid-template-rows: auto;
+            grid-gap: 2em;
+        }
+    }
+
+    &-more-articles-link {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        grid-area: morearticles;
+        height: 3em;
+        border-top: $light-border;
+        border-bottom: $light-border;
+        padding: 0 2.5%;
+        @media (min-width: 1625px) {
+            margin: 0 $media-large 3em;
+            padding: 0 .75%;
+        }
+        @media (min-width: 1225px) and (max-width: 1624px) {
+            margin: 0 $media-medium 3em;
+            padding: 0 .75%;
+        }
+        @media (min-width: 768px) and (max-width: 1224px) {
+            margin: 0 $media-small 3em;
+            padding: 0 .75%;
+        }
+        a {
+            color: #000;
+            transition: all .25s ease-in-out;
+            fill: $between-fill-color;
+            svg {
+                padding-left: .1em;
+            }
+            &:hover {
+                margin-right: -.2em;
+                fill: #000;
+            }
+        }
+    }
+
+    &-subscribe {
+        grid-area: subsc;
+        background: $fill-color;
+        padding-top: 1.5em;
+        margin: 0;
+    }
+
+    &-resources {
+        grid-area: resources;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 5em $media-smallest;
+        @media (min-width: 1625px) {
+            padding: 5em $media-large;
+        }
+
+        @media (min-width: 1225px) and (max-width: 1624px) {
+            padding: 5em $media-medium;
+        }
+
+        @media (min-width: 768px) and (max-width: 1224px) {
+            padding: 5em $media-small;
+        }
+    }
+
+    &-authors {
+        grid-area: featuredAuthor;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 5em $media-smallest;
+        @media (min-width: 1625px) {
+            padding: 5em $media-large;
+        }
+        @media (min-width: 1225px) and (max-width: 1624px) {
+            padding: 5em $media-medium;
+        }
+        @media (min-width: 768px) and (max-width: 1224px) {
+            padding: 5em $media-small;
+        }
+    }
+}

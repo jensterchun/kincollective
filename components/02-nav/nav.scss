@@ -1,0 +1,42 @@
+@import '../../config/variable.scss';
+
+@media (min-width: 1225px) {
+  .nav-list {
+    margin: 0 auto;
+    position: relative;
+    width: 50em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 6;
+    top: -$head-3;
+    @media (min-width: 1625px) {
+      top: -$head-4;
+    }
+    a {
+      height: $head-3;
+      @media (min-width: 1625px) {
+        height: $head-4;
+      }
+      font-family: $open-font;
+      font-size: $m-title-small;
+      color: $darker-fill-color;
+      display: flex;
+      align-items: center;
+      margin-left: 2em;
+      transition: all .5s;
+      &:hover {
+        -webkit-box-shadow: inset 0px -2.75px 0px 0px rgba(39,141,170,1);
+        -moz-box-shadow: inset 0px -2.75px 0px 0px rgba(39,141,170,1);
+        box-shadow: inset 0px -2.75px 0px 0px rgba(39,141,170,1);
+        color: #000;
+      }
+    }
+  }
+}
+
+@media (max-width: 1224px) {
+  .nav-list {
+    display: none;
+  }
+}

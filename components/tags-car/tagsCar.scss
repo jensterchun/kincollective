@@ -1,0 +1,115 @@
+@import '../../config/variable.scss';
+
+.tagCarousel {
+  display: grid;
+  grid-area: tagCarousel;
+  font-family: $open-font;
+  border-top: $light-border;
+  border-bottom: $light-border;
+  grid-template-columns: auto;
+  grid-template-rows: 2em auto;
+  grid-template-areas: 
+    "carTitle"
+    "car";
+  grid-gap: .75em;
+  padding: 1.5% .5% 2.5%;
+  margin: 4.5em $media-smallest;
+  @media (min-width: 1625px) {
+    margin: 6.5em $media-large;
+  }
+  @media (min-width: 1225px) and (max-width: 1624px) {
+    margin: 6.5em $media-medium;
+  }
+  @media (min-width: 900px) and (max-width: 1224px) {
+    margin: 6.5em auto;
+    width: 730px;
+  }
+  @media (min-width: 768px) and (max-width: 899px) {
+    margin: 6.5em $media-small;
+  }
+  @media (min-width: 401px) and (max-width: 767px) {
+    margin: 4.5em auto;
+    width: 385px;
+  }
+  a {
+    color: $darker-fill-color;
+  }
+}
+
+.tag-car-title {
+  grid-area: carTitle; 
+  display: flex;
+  justify-content: space-between;
+  font-size: $m-small;
+  a {
+  transition: all .4s ease-in-out;
+  fill: $between-fill-color;
+    &:hover {
+      margin-right: -.3em;
+      fill: #000;
+      color: #000;
+    }
+    svg {
+      padding-left: .1em;
+    }
+  }
+}
+
+.tag-car-container {
+  display: grid;
+  grid-area: car;
+  grid-gap: 1.9em;
+  font-size: $m-smaller;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
+  @media (min-width: 1625px) {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+  }
+  @media (min-width: 1225px) and (max-width: 1624px) {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+  }
+  @media (min-width: 900px) and (max-width: 1224px) {
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (min-width: 768px) and (max-width: 899px) {
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (min-width: 401px) and (max-width: 767px) {
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  a {
+    transition: all .25s ease-in-out;
+    p:first-child {
+    display: inline-block;
+    font-weight: bold;
+    }
+    svg {
+      padding-left: .3em;
+      fill: $between-fill-color;
+    }
+    &:hover {
+      color: #000;
+      svg {
+        fill: #000;
+        animation: .4s forwards hoverarrow;
+      }
+    }
+  }
+}
+
+@keyframes hoverarrow {
+  from {
+    padding-left: .3em;
+    fill: $darker-fill-color;
+  }
+
+  to {
+    padding-left: .75em;
+    fill: #000;
+  }
+}

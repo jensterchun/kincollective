@@ -1,0 +1,23 @@
+@import '../../config/variable.scss';
+
+.tags-page-container {
+    grid-area: body;
+    font-family: $open-font;
+}
+
+.tags-page-title {
+    padding: 2.75em 6% 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+.dropdown-container {
+    height: 10em;
+    display: none;
+}
+
+.dropdown-container:hover {
+    display: flex;
+}

@@ -1,0 +1,18 @@
+@import '../../config/variable.scss';
+
+.support-container {
+    grid-area: body;
+    font-family: $open-font;
+}
+
+.support-container p {
+    font-size: $m-small;
+}
+
+.support-title {
+    padding: 2.75em 6% 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}

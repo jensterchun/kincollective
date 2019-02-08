@@ -1,0 +1,97 @@
+@import '../../../config/variable.scss';
+
+.articles-page-card-content-container {
+  font-size: $m-small;
+}
+
+.articles-page-card-title {
+  font-size: $m-title;
+}
+
+.articles-page-card-container {
+  border-top: $light-border;
+}
+
+@media (min-width: 1225px)  {
+  .articles-page-card-container {
+    margin-top: -1.5%;
+    border-radius: 3px;
+    background-color: #FFF;
+    transition: all .5s;
+  }
+
+  .articles-page-card-container:hover {
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(226,226,226,1);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(226,226,226,1);
+    box-shadow: 0px 0px 5px 2px rgba(226,226,226,1);
+    border-radius: 3px;
+  }
+
+  .articles-page-card-time-author {
+    padding: .35em 0 .4em;
+  }
+
+  .articles-page-card-more {
+    display: block;
+    position: relative;
+    top: 14.5em;
+  }
+
+  .articles-page-card-content-container {
+    padding: 0 7% 3%;
+    height: 17.5em;
+  }
+  .articles-page-card-img--square { display: none; }
+}
+
+@media (min-width: 768px) and (max-width: 1224px) {
+  .articles-page-card-container {
+    display: grid;
+    grid-template-columns: .2fr .85fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "img pagescontent";
+    grid-gap: 1.25em;
+    padding: .75em 1.52em .75em 0;
+  }
+
+  .articles-page-card-img--square {
+    grid-area: img;
+  }
+
+  .articles-page-card-content {
+    grid-area: pagescontent;
+  }
+  
+  .articles-page-card-time-author {
+    padding: .35em 0 .4em;
+  }
+
+  .articles-page-card-img--landscape { display: none; }
+  .articles-page-card-more           { display: none; }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .articles-page-card-title {
+    padding-bottom: .15em;
+  }
+
+  .articles-page-card-container {
+    width: 385px;
+    margin: 0 auto;
+    padding: 2.5% 0;
+
+  }
+}
+
+@media (max-width: 767px) {
+  .articles-page-card-img-container { display: none; }
+  .articles-page-card-content       { display: none; }
+  .articles-page-card-more          { display: none; }
+}
+
+@media (max-width: 400px) {
+  .articles-page-card-container {
+    padding: 3.5%;
+  }
+}

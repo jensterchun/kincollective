@@ -1,0 +1,31 @@
+@import '../../config/variable.scss';
+
+.developer-page-container {
+    grid-area: body;
+    font-family: $open-font;
+}
+
+.developer-page-container h2 {
+    font-weight: 300;
+    padding: 2.75em 6% 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.developer-page-h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.developer-page-h3 h3 {
+    font-weight: 300;
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 70%;
+    padding-bottom: 2em;
+}
